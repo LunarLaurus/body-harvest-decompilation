@@ -1,0 +1,2916 @@
+{
+  "generated": "2026-11-07T17:59:29Z",
+  "commit": "118a5626",
+  "commit_timestamp": "2026-11-07T07:20:13+13:00",
+  "overall": {
+    "total_functions": 3057,
+    "matched": 2984,
+    "non_matching": 73,
+    "asm_stubs": 0,
+    "matched_pct": 97.61,
+    "decompiled_pct": 100.0
+  },
+  "segments": {
+    "core": {
+      "display_name": "Core",
+      "matched": 350,
+      "non_matching": 5,
+      "asm_stubs": 0,
+      "total": 355,
+      "matched_pct": 98.6,
+      "decompiled_pct": 100.0
+    },
+    "overlay_gameplay/frontend": {
+      "display_name": "Gameplay / Frontend",
+      "matched": 217,
+      "non_matching": 1,
+      "asm_stubs": 0,
+      "total": 218,
+      "matched_pct": 99.5,
+      "decompiled_pct": 100.0
+    },
+    "overlay_gameplay/outside": {
+      "display_name": "Gameplay / Outside",
+      "matched": 1399,
+      "non_matching": 50,
+      "asm_stubs": 0,
+      "total": 1449,
+      "matched_pct": 96.5,
+      "decompiled_pct": 100.0
+    },
+    "overlay_gameplay/inside": {
+      "display_name": "Gameplay / Inside",
+      "matched": 230,
+      "non_matching": 8,
+      "asm_stubs": 0,
+      "total": 238,
+      "matched_pct": 96.6,
+      "decompiled_pct": 100.0
+    },
+    "overlay_level/greece": {
+      "display_name": "Level / Greece",
+      "matched": 64,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 64,
+      "matched_pct": 100.0,
+      "decompiled_pct": 100.0
+    },
+    "overlay_level/java": {
+      "display_name": "Level / Java",
+      "matched": 100,
+      "non_matching": 3,
+      "asm_stubs": 0,
+      "total": 103,
+      "matched_pct": 97.1,
+      "decompiled_pct": 100.0
+    },
+    "overlay_level/america": {
+      "display_name": "Level / America",
+      "matched": 73,
+      "non_matching": 1,
+      "asm_stubs": 0,
+      "total": 74,
+      "matched_pct": 98.6,
+      "decompiled_pct": 100.0
+    },
+    "overlay_level/siberia": {
+      "display_name": "Level / Siberia",
+      "matched": 95,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 95,
+      "matched_pct": 100.0,
+      "decompiled_pct": 100.0
+    },
+    "overlay_level/comet": {
+      "display_name": "Level / Comet",
+      "matched": 117,
+      "non_matching": 5,
+      "asm_stubs": 0,
+      "total": 122,
+      "matched_pct": 95.9,
+      "decompiled_pct": 100.0
+    },
+    "libultra": {
+      "display_name": "libultra",
+      "matched": 339,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 339,
+      "matched_pct": 100.0,
+      "decompiled_pct": 100.0
+    }
+  },
+  "files": [
+    {
+      "path": "core/1050.c",
+      "segment": "core",
+      "matched": 58,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 58,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/10A20.c",
+      "segment": "core",
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 4,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/12C80.c",
+      "segment": "core",
+      "matched": 92,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 92,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/17EE0.c",
+      "segment": "core",
+      "matched": 28,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 28,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/1B060.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 1,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 0.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/1B100.c",
+      "segment": "core",
+      "matched": 6,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 6,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/53D0.c",
+      "segment": "core",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/53F0.c",
+      "segment": "core",
+      "matched": 75,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 75,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/AD60.c",
+      "segment": "core",
+      "matched": 23,
+      "non_matching": 3,
+      "asm_stubs": 0,
+      "total": 26,
+      "matched_pct": 88.5,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/E830.c",
+      "segment": "core",
+      "matched": 9,
+      "non_matching": 1,
+      "asm_stubs": 0,
+      "total": 10,
+      "matched_pct": 90.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/FD80.c",
+      "segment": "core",
+      "matched": 14,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 14,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/alien_parts.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/alien_waves.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/camera_curve.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/loader.c",
+      "segment": "core",
+      "matched": 39,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 39,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/rsp_data.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/surface_properties.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/terrain_lookup.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/trig_tables.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/world_tables.c",
+      "segment": "core",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/ai.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/aigetlen.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/aisetfreq.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/aisetnextbuf.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/align.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/auxbus.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/bnkf.c",
+      "segment": "libultra",
+      "matched": 6,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 6,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/cents2ratio.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/conteeplongread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/conteeplongwrite.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/conteepprobe.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/conteepread.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/conteepwrite.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/contram.c",
+      "segment": "libultra",
+      "matched": 6,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 6,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/contreaddata.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/controller.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/contsetch.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/copy.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/cosf.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/coss.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/crc.c",
+      "segment": "libultra",
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 4,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/createmesgqueue.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/createthread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/cseq.c",
+      "segment": "libultra",
+      "matched": 12,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 12,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/csplayer.c",
+      "segment": "libultra",
+      "matched": 8,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 8,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/destroythread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/devmgr.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/dp.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/dpsetnextbuf.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/drvrNew.c",
+      "segment": "libultra",
+      "matched": 8,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 8,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/env.c",
+      "segment": "libultra",
+      "matched": 7,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 7,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/epirawdma.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/epirawread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/epirawwrite.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/event.c",
+      "segment": "libultra",
+      "matched": 8,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 8,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/exceptasm_data.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/filter.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/getthreadpri.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/gettime.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/globalintmask_data.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/heapalloc.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/heapinit.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/initialize.c",
+      "segment": "libultra",
+      "matched": 6,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 6,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/jammesg.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/leointerrupt.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/libm_qnan_rodata.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/ll.c",
+      "segment": "libultra",
+      "matched": 10,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 10,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/load.c",
+      "segment": "libultra",
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 4,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/lookat.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/lookatref.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/mainbus.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/motor.c",
+      "segment": "libultra",
+      "matched": 7,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 7,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/mtxcatf.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/mtxcatl.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/mtxutil.c",
+      "segment": "libultra",
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 4,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/normalize.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/ortho.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/parameters_data.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/perspective.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pfsgetstatus.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pfsisplug.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/piacs.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pidma.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pigetcmdq.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pigetstat.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pimgr.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pirawdma.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/pirawread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/recvmesg.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/resample.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/resetglobalintmask.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/reverb.c",
+      "segment": "libultra",
+      "matched": 8,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 8,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/rotate.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/rotateRPY.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/save.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/scale.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sched.c",
+      "segment": "libultra",
+      "matched": 14,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 14,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sendmesg.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seq.c",
+      "segment": "libultra",
+      "matched": 13,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 13,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seqplayer.c",
+      "segment": "libultra",
+      "matched": 22,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 22,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seqpplay.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seqpsetbank.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seqpsetchlvol.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seqpsetseq.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seqpsetvol.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seqpstop.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/seteventmesg.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/setglobalintmask.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/setthreadpri.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/settimer.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/si.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/siacs.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sinf.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sins.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sirawdma.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sirawread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sirawwrite.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sl.c",
+      "segment": "libultra",
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 4,
+      "matched_pct": 100.0,
+      "contributor": "lunarlaurus"
+    },
+    {
+      "path": "libultra/sndpallocate.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpdeallocate.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpgetstate.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndplayer.c",
+      "segment": "libultra",
+      "matched": 5,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 5,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpplay.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpsetfxmix.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpsetpan.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpsetpitch.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpsetpriority.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpsetsound.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpsetvol.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sndpstop.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sp.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/spgetstat.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sprawdma.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/spsetpc.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/spsetstat.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sptask.c",
+      "segment": "libultra",
+      "matched": 3,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 3,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sptaskyield.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/sptaskyielded.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/startthread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/stopthread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synaddplayer.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synallocfx.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synallocvoice.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/syncprintf.c",
+      "segment": "libultra",
+      "matched": 8,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 8,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/syndelete.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synfreevoice.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synsetfxmix.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synsetpan.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synsetpitch.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synsetpriority.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synsetvol.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synstartvoice.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synstartvoiceparam.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synstopvoice.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/synthesizer.c",
+      "segment": "libultra",
+      "matched": 9,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 9,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/thread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/thread_data.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/timerintr.c",
+      "segment": "libultra",
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 4,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/translate.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/vi.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/viblack.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/vidata.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/vigetcurrcontext.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/vigetcurrframebuf.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/vigetnextframebuf.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/vimgr.c",
+      "segment": "libultra",
+      "matched": 2,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 2,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/vimodempallan1.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/vimodentsclan1.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/vimodepallan1.c",
+      "segment": "libultra",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "libultra/virtualtophysical.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/visetevent.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/visetmode.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/visetspecial.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/visetxscale.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/visetyscale.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/viswapbuf.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/viswapcontext.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "libultra/yieldthread.c",
+      "segment": "libultra",
+      "matched": 1,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 1,
+      "matched_pct": 100.0,
+      "contributor": "Jay"
+    },
+    {
+      "path": "overlay_gameplay/frontend/40720.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 75,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 75,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/4DC90.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 37,
+      "non_matching": 1,
+      "asm_stubs": 0,
+      "total": 38,
+      "matched_pct": 97.4,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/52690.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 105,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 105,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_60E60.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_61D50.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_62550.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_62650.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_63850.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_64750.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_64E00.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_64F70.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_650C0.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_65350.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_65530.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_65570.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_65DC0.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_66260.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_66820.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_66AA0.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_68FA0.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_7DD60.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/frontend/data_7EEF0.c",
+      "segment": "overlay_gameplay/frontend",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/inside/158330.c",
+      "segment": "overlay_gameplay/inside",
+      "matched": 92,
+      "non_matching": 3,
+      "asm_stubs": 0,
+      "total": 95,
+      "matched_pct": 96.8,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/inside/1648A0.c",
+      "segment": "overlay_gameplay/inside",
+      "matched": 19,
+      "non_matching": 3,
+      "asm_stubs": 0,
+      "total": 22,
+      "matched_pct": 86.4,
+      "contributor": "LunarLaurus"
+    },
+    {
+      "path": "overlay_gameplay/inside/167C90.c",
+      "segment": "overlay_gameplay/inside",
+      "matched": 28,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 28,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/inside/16AF30.c",
+      "segment": "overlay_gameplay/inside",
+      "matched": 78,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 78,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/inside/173B60.c",
+      "segment": "overlay_gameplay/inside",
+      "matched": 13,
+      "non_matching": 2,
+      "asm_stubs": 0,
+      "total": 15,
+      "matched_pct": 86.7,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/101840.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 211,
+      "non_matching": 8,
+      "asm_stubs": 0,
+      "total": 219,
+      "matched_pct": 96.3,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/101840_rodata.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/1312D0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 49,
+      "non_matching": 4,
+      "asm_stubs": 0,
+      "total": 53,
+      "matched_pct": 92.5,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/1312D0_rodata.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/13DA70.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 10,
+      "non_matching": 3,
+      "asm_stubs": 0,
+      "total": 13,
+      "matched_pct": 76.9,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/1416E0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 35,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 35,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/145D70.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 14,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 14,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/148000.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 32,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 32,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/7F220.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 16,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 16,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/857E0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 21,
+      "non_matching": 2,
+      "asm_stubs": 0,
+      "total": 23,
+      "matched_pct": 91.3,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/884C0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 171,
+      "non_matching": 3,
+      "asm_stubs": 0,
+      "total": 174,
+      "matched_pct": 98.3,
+      "contributor": "LunarLaurus"
+    },
+    {
+      "path": "overlay_gameplay/outside/9BFF0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 74,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 74,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/A40B0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 4,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/A49A0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 10,
+      "non_matching": 4,
+      "asm_stubs": 0,
+      "total": 14,
+      "matched_pct": 71.4,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/AAA70.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 37,
+      "non_matching": 2,
+      "asm_stubs": 0,
+      "total": 39,
+      "matched_pct": 94.9,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/B2CB0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 10,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 10,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/B49C0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 20,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 20,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/B8290.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 12,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 12,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/B8290_tail.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 40,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 40,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/BF9C0.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 67,
+      "non_matching": 8,
+      "asm_stubs": 0,
+      "total": 75,
+      "matched_pct": 89.3,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/CFE30.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 276,
+      "non_matching": 6,
+      "asm_stubs": 0,
+      "total": 282,
+      "matched_pct": 97.9,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/F6A50.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 8,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 8,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/F7870.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 8,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 8,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/F7870_empty.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/F9230.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 39,
+      "non_matching": 2,
+      "asm_stubs": 0,
+      "total": 41,
+      "matched_pct": 95.1,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/FEC70.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 11,
+      "non_matching": 4,
+      "asm_stubs": 0,
+      "total": 15,
+      "matched_pct": 73.3,
+      "contributor": "Lauren Byrne"
+    },
+    {
+      "path": "overlay_gameplay/outside/buildings.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 102,
+      "non_matching": 4,
+      "asm_stubs": 0,
+      "total": 106,
+      "matched_pct": 96.2,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/cheats.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 26,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 26,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/constData.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "lunarlaurus"
+    },
+    {
+      "path": "overlay_gameplay/outside/constData2.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "lunarlaurus"
+    },
+    {
+      "path": "overlay_gameplay/outside/missions.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 38,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 38,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_gameplay/outside/mutableData.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "lunarlaurus"
+    },
+    {
+      "path": "overlay_gameplay/outside/trigger.c",
+      "segment": "overlay_gameplay/outside",
+      "matched": 58,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 58,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/america/254410.c",
+      "segment": "overlay_level/america",
+      "matched": 73,
+      "non_matching": 1,
+      "asm_stubs": 0,
+      "total": 74,
+      "matched_pct": 98.6,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/america/254410_rodata.c",
+      "segment": "overlay_level/america",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/america/alien_types.c",
+      "segment": "overlay_level/america",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/comet/318E20.c",
+      "segment": "overlay_level/comet",
+      "matched": 117,
+      "non_matching": 5,
+      "asm_stubs": 0,
+      "total": 122,
+      "matched_pct": 95.9,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/comet/alien_types.c",
+      "segment": "overlay_level/comet",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/greece/18D7E0.c",
+      "segment": "overlay_level/greece",
+      "matched": 64,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 64,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/greece/alien_types.c",
+      "segment": "overlay_level/greece",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/java/1ED9E0.c",
+      "segment": "overlay_level/java",
+      "matched": 100,
+      "non_matching": 3,
+      "asm_stubs": 0,
+      "total": 103,
+      "matched_pct": 97.1,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/java/alien_types.c",
+      "segment": "overlay_level/java",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/siberia/2B7100.c",
+      "segment": "overlay_level/siberia",
+      "matched": 95,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 95,
+      "matched_pct": 100.0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "overlay_level/siberia/alien_types.c",
+      "segment": "overlay_level/siberia",
+      "matched": 0,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 0,
+      "matched_pct": 0,
+      "contributor": "jaytheham"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "jaytheham",
+      "files": 94,
+      "matched": 2444,
+      "non_matching": 63,
+      "asm_stubs": 0
+    },
+    {
+      "name": "Jay",
+      "files": 148,
+      "matched": 335,
+      "non_matching": 0,
+      "asm_stubs": 0
+    },
+    {
+      "name": "LunarLaurus",
+      "files": 2,
+      "matched": 190,
+      "non_matching": 6,
+      "asm_stubs": 0
+    },
+    {
+      "name": "Lauren Byrne",
+      "files": 1,
+      "matched": 11,
+      "non_matching": 4,
+      "asm_stubs": 0
+    },
+    {
+      "name": "lunarlaurus",
+      "files": 4,
+      "matched": 4,
+      "non_matching": 0,
+      "asm_stubs": 0
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-02-01",
+      "commit": "6227d6f",
+      "matched": 12,
+      "non_matching": 0,
+      "total": 111
+    },
+    {
+      "date": "2026-02-08",
+      "commit": "6722fb8",
+      "matched": 49,
+      "non_matching": 0,
+      "total": 201
+    },
+    {
+      "date": "2026-02-15",
+      "commit": "6a15832",
+      "matched": 177,
+      "non_matching": 40,
+      "total": 763
+    },
+    {
+      "date": "2026-02-22",
+      "commit": "0efa11a",
+      "matched": 479,
+      "non_matching": 153,
+      "total": 3038
+    },
+    {
+      "date": "2026-03-01",
+      "commit": "effdd6f",
+      "matched": 598,
+      "non_matching": 218,
+      "total": 2701
+    },
+    {
+      "date": "2026-03-08",
+      "commit": "536824e",
+      "matched": 679,
+      "non_matching": 271,
+      "total": 2701
+    },
+    {
+      "date": "2026-03-15",
+      "commit": "98103e7",
+      "matched": 841,
+      "non_matching": 280,
+      "total": 2701
+    },
+    {
+      "date": "2026-03-22",
+      "commit": "d71ea4e",
+      "matched": 976,
+      "non_matching": 298,
+      "total": 2701
+    },
+    {
+      "date": "2026-03-29",
+      "commit": "670c36d",
+      "matched": 1181,
+      "non_matching": 344,
+      "total": 2707
+    },
+    {
+      "date": "2026-04-05",
+      "commit": "44a03dd",
+      "matched": 1239,
+      "non_matching": 384,
+      "total": 2707
+    },
+    {
+      "date": "2026-04-12",
+      "commit": "c343c0d",
+      "matched": 1285,
+      "non_matching": 452,
+      "total": 2706
+    },
+    {
+      "date": "2026-04-19",
+      "commit": "5e8d27d",
+      "matched": 1326,
+      "non_matching": 626,
+      "total": 2716
+    },
+    {
+      "date": "2026-04-26",
+      "commit": "4d7e83d",
+      "matched": 1327,
+      "non_matching": 625,
+      "total": 2716
+    },
+    {
+      "date": "2026-05-03",
+      "commit": "970f57c",
+      "matched": 1339,
+      "non_matching": 680,
+      "total": 2715
+    },
+    {
+      "date": "2026-05-10",
+      "commit": "873dd5b",
+      "matched": 1364,
+      "non_matching": 888,
+      "total": 2715
+    },
+    {
+      "date": "2026-05-17",
+      "commit": "5108678",
+      "matched": 1379,
+      "non_matching": 943,
+      "total": 2714
+    },
+    {
+      "date": "2026-05-24",
+      "commit": "54d4241",
+      "matched": 1385,
+      "non_matching": 1058,
+      "total": 2712
+    },
+    {
+      "date": "2026-05-31",
+      "commit": "3365ed1",
+      "matched": 1407,
+      "non_matching": 1062,
+      "total": 2712
+    },
+    {
+      "date": "2026-06-07",
+      "commit": "da91528",
+      "matched": 1451,
+      "non_matching": 1124,
+      "total": 2715
+    },
+    {
+      "date": "2026-06-14",
+      "commit": "7df316c",
+      "matched": 1493,
+      "non_matching": 1083,
+      "total": 2710
+    },
+    {
+      "date": "2026-06-21",
+      "commit": "59250dc",
+      "matched": 1495,
+      "non_matching": 1081,
+      "total": 2710
+    },
+    {
+      "date": "2026-06-28",
+      "commit": "3986b2f",
+      "matched": 1495,
+      "non_matching": 1081,
+      "total": 2710
+    },
+    {
+      "date": "2026-07-05",
+      "commit": "f238beb",
+      "matched": 1523,
+      "non_matching": 1108,
+      "total": 2710
+    },
+    {
+      "date": "2026-07-12",
+      "commit": "38714cb",
+      "matched": 1569,
+      "non_matching": 1144,
+      "total": 2716
+    },
+    {
+      "date": "2026-07-19",
+      "commit": "01cfda3",
+      "matched": 1606,
+      "non_matching": 1108,
+      "total": 2717
+    },
+    {
+      "date": "2026-07-26",
+      "commit": "e936c55",
+      "matched": 1619,
+      "non_matching": 1095,
+      "total": 2716
+    },
+    {
+      "date": "2026-08-02",
+      "commit": "91dbfd3",
+      "matched": 1640,
+      "non_matching": 1074,
+      "total": 2716
+    },
+    {
+      "date": "2026-08-09",
+      "commit": "81eabbe",
+      "matched": 1643,
+      "non_matching": 1071,
+      "total": 2716
+    },
+    {
+      "date": "2026-08-16",
+      "commit": "64e707d",
+      "matched": 1650,
+      "non_matching": 1063,
+      "total": 2715
+    },
+    {
+      "date": "2026-08-23",
+      "commit": "da030ab",
+      "matched": 1656,
+      "non_matching": 1057,
+      "total": 2715
+    },
+    {
+      "date": "2026-08-30",
+      "commit": "eb553fd",
+      "matched": 1666,
+      "non_matching": 1048,
+      "total": 2716
+    },
+    {
+      "date": "2026-09-06",
+      "commit": "8471af1",
+      "matched": 1680,
+      "non_matching": 1034,
+      "total": 2716
+    },
+    {
+      "date": "2026-09-13",
+      "commit": "cfa973e",
+      "matched": 1684,
+      "non_matching": 1030,
+      "total": 2716
+    },
+    {
+      "date": "2026-09-20",
+      "commit": "87ece2e",
+      "matched": 1721,
+      "non_matching": 993,
+      "total": 2714
+    },
+    {
+      "date": "2026-09-27",
+      "commit": "e0df296",
+      "matched": 1787,
+      "non_matching": 928,
+      "total": 2715
+    },
+    {
+      "date": "2026-10-04",
+      "commit": "e0df296",
+      "matched": 1787,
+      "non_matching": 928,
+      "total": 2715
+    },
+    {
+      "date": "2026-10-11",
+      "commit": "3ac1dd1",
+      "matched": 2608,
+      "non_matching": 449,
+      "total": 3058
+    },
+    {
+      "date": "2026-10-18",
+      "commit": "26f495e",
+      "matched": 2735,
+      "non_matching": 322,
+      "total": 3058
+    },
+    {
+      "date": "2026-10-25",
+      "commit": "5aeed38",
+      "matched": 2876,
+      "non_matching": 181,
+      "total": 3057
+    },
+    {
+      "date": "2026-11-01",
+      "commit": "118a562",
+      "matched": 2984,
+      "non_matching": 73,
+      "total": 3057
+    }
+  ]
+}
