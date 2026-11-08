@@ -1,23 +1,23 @@
 {
-  "generated": "2026-11-07T17:59:29Z",
-  "commit": "118a5626",
-  "commit_timestamp": "2026-11-07T07:20:13+13:00",
+  "generated": "2026-11-08T05:45:06Z",
+  "commit": "d039af07",
+  "commit_timestamp": "2026-11-08T17:55:14+13:00",
   "overall": {
     "total_functions": 3057,
-    "matched": 2984,
-    "non_matching": 73,
+    "matched": 2988,
+    "non_matching": 69,
     "asm_stubs": 0,
-    "matched_pct": 97.61,
+    "matched_pct": 97.74,
     "decompiled_pct": 100.0
   },
   "segments": {
     "core": {
       "display_name": "Core",
-      "matched": 350,
-      "non_matching": 5,
+      "matched": 352,
+      "non_matching": 3,
       "asm_stubs": 0,
       "total": 355,
-      "matched_pct": 98.6,
+      "matched_pct": 99.2,
       "decompiled_pct": 100.0
     },
     "overlay_gameplay/frontend": {
@@ -31,11 +31,11 @@
     },
     "overlay_gameplay/outside": {
       "display_name": "Gameplay / Outside",
-      "matched": 1399,
-      "non_matching": 50,
+      "matched": 1400,
+      "non_matching": 49,
       "asm_stubs": 0,
       "total": 1449,
-      "matched_pct": 96.5,
+      "matched_pct": 96.6,
       "decompiled_pct": 100.0
     },
     "overlay_gameplay/inside": {
@@ -58,11 +58,11 @@
     },
     "overlay_level/java": {
       "display_name": "Level / Java",
-      "matched": 100,
-      "non_matching": 3,
+      "matched": 101,
+      "non_matching": 2,
       "asm_stubs": 0,
       "total": 103,
-      "matched_pct": 97.1,
+      "matched_pct": 98.1,
       "decompiled_pct": 100.0
     },
     "overlay_level/america": {
@@ -186,11 +186,11 @@
     {
       "path": "core/AD60.c",
       "segment": "core",
-      "matched": 23,
-      "non_matching": 3,
+      "matched": 25,
+      "non_matching": 1,
       "asm_stubs": 0,
       "total": 26,
-      "matched_pct": 88.5,
+      "matched_pct": 96.2,
       "contributor": "jaytheham"
     },
     {
@@ -2416,12 +2416,12 @@
     {
       "path": "overlay_gameplay/outside/buildings.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 102,
-      "non_matching": 4,
+      "matched": 103,
+      "non_matching": 3,
       "asm_stubs": 0,
       "total": 106,
-      "matched_pct": 96.2,
-      "contributor": "jaytheham"
+      "matched_pct": 97.2,
+      "contributor": "LunarLaurus"
     },
     {
       "path": "overlay_gameplay/outside/cheats.c",
@@ -2556,12 +2556,12 @@
     {
       "path": "overlay_level/java/1ED9E0.c",
       "segment": "overlay_level/java",
-      "matched": 100,
-      "non_matching": 3,
+      "matched": 101,
+      "non_matching": 2,
       "asm_stubs": 0,
       "total": 103,
-      "matched_pct": 97.1,
-      "contributor": "jaytheham"
+      "matched_pct": 98.1,
+      "contributor": "LunarLaurus"
     },
     {
       "path": "overlay_level/java/alien_types.c",
@@ -2597,9 +2597,16 @@
   "contributors": [
     {
       "name": "jaytheham",
-      "files": 94,
-      "matched": 2444,
-      "non_matching": 63,
+      "files": 92,
+      "matched": 2244,
+      "non_matching": 54,
+      "asm_stubs": 0
+    },
+    {
+      "name": "LunarLaurus",
+      "files": 4,
+      "matched": 394,
+      "non_matching": 11,
       "asm_stubs": 0
     },
     {
@@ -2607,13 +2614,6 @@
       "files": 148,
       "matched": 335,
       "non_matching": 0,
-      "asm_stubs": 0
-    },
-    {
-      "name": "LunarLaurus",
-      "files": 2,
-      "matched": 190,
-      "non_matching": 6,
       "asm_stubs": 0
     },
     {
@@ -2907,9 +2907,16 @@
     },
     {
       "date": "2026-11-01",
-      "commit": "118a562",
-      "matched": 2984,
-      "non_matching": 73,
+      "commit": "d3f282d",
+      "matched": 2985,
+      "non_matching": 72,
+      "total": 3057
+    },
+    {
+      "date": "2026-11-08",
+      "commit": "d039af0",
+      "matched": 2988,
+      "non_matching": 69,
       "total": 3057
     }
   ]
