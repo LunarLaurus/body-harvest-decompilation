@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-23T03:26:51Z",
-  "commit": "02967343",
-  "commit_timestamp": "2026-11-22T23:21:15+13:00",
+  "generated": "2026-11-23T05:36:25Z",
+  "commit": "0776a99b",
+  "commit_timestamp": "2026-11-23T17:42:46+13:00",
   "overall": {
     "total_functions": 3057,
-    "matched": 3040,
-    "non_matching": 17,
+    "matched": 3045,
+    "non_matching": 12,
     "asm_stubs": 0,
-    "matched_pct": 99.44,
+    "matched_pct": 99.61,
     "decompiled_pct": 100.0
   },
   "segments": {
@@ -31,20 +31,20 @@
     },
     "overlay_gameplay/outside": {
       "display_name": "Gameplay / Outside",
-      "matched": 1437,
-      "non_matching": 12,
+      "matched": 1439,
+      "non_matching": 10,
       "asm_stubs": 0,
       "total": 1449,
-      "matched_pct": 99.2,
+      "matched_pct": 99.3,
       "decompiled_pct": 100.0
     },
     "overlay_gameplay/inside": {
       "display_name": "Gameplay / Inside",
-      "matched": 235,
-      "non_matching": 3,
+      "matched": 237,
+      "non_matching": 1,
       "asm_stubs": 0,
       "total": 238,
-      "matched_pct": 98.7,
+      "matched_pct": 99.6,
       "decompiled_pct": 100.0
     },
     "overlay_level/greece": {
@@ -85,11 +85,11 @@
     },
     "overlay_level/comet": {
       "display_name": "Level / Comet",
-      "matched": 121,
-      "non_matching": 1,
+      "matched": 122,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 122,
-      "matched_pct": 99.2,
+      "matched_pct": 100.0,
       "decompiled_pct": 100.0
     },
     "libultra": {
@@ -2086,22 +2086,22 @@
     {
       "path": "overlay_gameplay/inside/158330.c",
       "segment": "overlay_gameplay/inside",
-      "matched": 94,
-      "non_matching": 1,
+      "matched": 95,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 95,
-      "matched_pct": 98.9,
-      "contributor": "jaytheham"
+      "matched_pct": 100.0,
+      "contributor": "TheGh0stShip"
     },
     {
       "path": "overlay_gameplay/inside/1648A0.c",
       "segment": "overlay_gameplay/inside",
-      "matched": 21,
-      "non_matching": 1,
+      "matched": 22,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 22,
-      "matched_pct": 95.5,
-      "contributor": "jaytheham"
+      "matched_pct": 100.0,
+      "contributor": "TheGh0stShip"
     },
     {
       "path": "overlay_gameplay/inside/167C90.c",
@@ -2226,12 +2226,12 @@
     {
       "path": "overlay_gameplay/outside/857E0.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 22,
-      "non_matching": 1,
+      "matched": 23,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 23,
-      "matched_pct": 95.7,
-      "contributor": "jaytheham"
+      "matched_pct": 100.0,
+      "contributor": "TheGh0stShip"
     },
     {
       "path": "overlay_gameplay/outside/884C0.c",
@@ -2271,7 +2271,7 @@
       "asm_stubs": 0,
       "total": 14,
       "matched_pct": 85.7,
-      "contributor": "jaytheham"
+      "contributor": "TheGh0stShip"
     },
     {
       "path": "overlay_gameplay/outside/AAA70.c",
@@ -2336,12 +2336,12 @@
     {
       "path": "overlay_gameplay/outside/BF9C0.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 74,
-      "non_matching": 1,
+      "matched": 75,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 75,
-      "matched_pct": 98.7,
-      "contributor": "jaytheham"
+      "matched_pct": 100.0,
+      "contributor": "TheGh0stShip"
     },
     {
       "path": "overlay_gameplay/outside/CFE30.c",
@@ -2496,12 +2496,12 @@
     {
       "path": "overlay_level/comet/318E20.c",
       "segment": "overlay_level/comet",
-      "matched": 121,
-      "non_matching": 1,
+      "matched": 122,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 122,
-      "matched_pct": 99.2,
-      "contributor": "jaytheham"
+      "matched_pct": 100.0,
+      "contributor": "TheGh0stShip"
     },
     {
       "path": "overlay_level/comet/alien_types.c",
@@ -2577,9 +2577,16 @@
   "contributors": [
     {
       "name": "jaytheham",
-      "files": 95,
-      "matched": 2701,
-      "non_matching": 17,
+      "files": 89,
+      "matched": 2357,
+      "non_matching": 10,
+      "asm_stubs": 0
+    },
+    {
+      "name": "TheGh0stShip",
+      "files": 6,
+      "matched": 349,
+      "non_matching": 2,
       "asm_stubs": 0
     },
     {
@@ -2901,9 +2908,9 @@
     },
     {
       "date": "2026-11-22",
-      "commit": "b9f4a57",
-      "matched": 3040,
-      "non_matching": 17,
+      "commit": "0776a99",
+      "matched": 3045,
+      "non_matching": 12,
       "total": 3057
     }
   ]
