@@ -1,13 +1,13 @@
 {
-  "generated": "2026-11-22T09:08:28Z",
-  "commit": "8ab9b06f",
-  "commit_timestamp": "2026-11-19T13:30:56+13:00",
+  "generated": "2026-11-23T03:26:51Z",
+  "commit": "02967343",
+  "commit_timestamp": "2026-11-22T23:21:15+13:00",
   "overall": {
     "total_functions": 3057,
-    "matched": 3023,
-    "non_matching": 34,
+    "matched": 3040,
+    "non_matching": 17,
     "asm_stubs": 0,
-    "matched_pct": 98.89,
+    "matched_pct": 99.44,
     "decompiled_pct": 100.0
   },
   "segments": {
@@ -31,20 +31,20 @@
     },
     "overlay_gameplay/outside": {
       "display_name": "Gameplay / Outside",
-      "matched": 1422,
-      "non_matching": 27,
+      "matched": 1437,
+      "non_matching": 12,
       "asm_stubs": 0,
       "total": 1449,
-      "matched_pct": 98.1,
+      "matched_pct": 99.2,
       "decompiled_pct": 100.0
     },
     "overlay_gameplay/inside": {
       "display_name": "Gameplay / Inside",
-      "matched": 234,
-      "non_matching": 4,
+      "matched": 235,
+      "non_matching": 3,
       "asm_stubs": 0,
       "total": 238,
-      "matched_pct": 98.3,
+      "matched_pct": 98.7,
       "decompiled_pct": 100.0
     },
     "overlay_level/greece": {
@@ -67,11 +67,11 @@
     },
     "overlay_level/america": {
       "display_name": "Level / America",
-      "matched": 73,
-      "non_matching": 1,
+      "matched": 74,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 74,
-      "matched_pct": 98.6,
+      "matched_pct": 100.0,
       "decompiled_pct": 100.0
     },
     "overlay_level/siberia": {
@@ -110,16 +110,6 @@
       "non_matching": 0,
       "asm_stubs": 0,
       "total": 58,
-      "matched_pct": 100.0,
-      "contributor": "jaytheham"
-    },
-    {
-      "path": "core/10A20.c",
-      "segment": "core",
-      "matched": 4,
-      "non_matching": 0,
-      "asm_stubs": 0,
-      "total": 4,
       "matched_pct": 100.0,
       "contributor": "jaytheham"
     },
@@ -186,21 +176,11 @@
     {
       "path": "core/AD60.c",
       "segment": "core",
-      "matched": 26,
+      "matched": 13,
       "non_matching": 0,
       "asm_stubs": 0,
-      "total": 26,
+      "total": 13,
       "matched_pct": 100.0,
-      "contributor": "jaytheham"
-    },
-    {
-      "path": "core/AD60_rodata.c",
-      "segment": "core",
-      "matched": 0,
-      "non_matching": 0,
-      "asm_stubs": 0,
-      "total": 0,
-      "matched_pct": 0,
       "contributor": "jaytheham"
     },
     {
@@ -211,15 +191,15 @@
       "asm_stubs": 0,
       "total": 10,
       "matched_pct": 100.0,
-      "contributor": "LunarLaurus"
+      "contributor": "jaytheham"
     },
     {
       "path": "core/FD80.c",
       "segment": "core",
-      "matched": 14,
+      "matched": 18,
       "non_matching": 0,
       "asm_stubs": 0,
-      "total": 14,
+      "total": 18,
       "matched_pct": 100.0,
       "contributor": "jaytheham"
     },
@@ -241,6 +221,16 @@
       "asm_stubs": 0,
       "total": 0,
       "matched_pct": 0,
+      "contributor": "jaytheham"
+    },
+    {
+      "path": "core/animation_channels.c",
+      "segment": "core",
+      "matched": 13,
+      "non_matching": 0,
+      "asm_stubs": 0,
+      "total": 13,
+      "matched_pct": 100.0,
       "contributor": "jaytheham"
     },
     {
@@ -1911,7 +1901,7 @@
       "asm_stubs": 0,
       "total": 38,
       "matched_pct": 100.0,
-      "contributor": "LunarLaurus"
+      "contributor": "jaytheham"
     },
     {
       "path": "overlay_gameplay/frontend/52690.c",
@@ -2094,33 +2084,13 @@
       "contributor": "jaytheham"
     },
     {
-      "path": "overlay_gameplay/frontend/data_7DD60.c",
-      "segment": "overlay_gameplay/frontend",
-      "matched": 0,
-      "non_matching": 0,
-      "asm_stubs": 0,
-      "total": 0,
-      "matched_pct": 0,
-      "contributor": "jaytheham"
-    },
-    {
-      "path": "overlay_gameplay/frontend/data_7EEF0.c",
-      "segment": "overlay_gameplay/frontend",
-      "matched": 0,
-      "non_matching": 0,
-      "asm_stubs": 0,
-      "total": 0,
-      "matched_pct": 0,
-      "contributor": "jaytheham"
-    },
-    {
       "path": "overlay_gameplay/inside/158330.c",
       "segment": "overlay_gameplay/inside",
-      "matched": 93,
-      "non_matching": 2,
+      "matched": 94,
+      "non_matching": 1,
       "asm_stubs": 0,
       "total": 95,
-      "matched_pct": 97.9,
+      "matched_pct": 98.9,
       "contributor": "jaytheham"
     },
     {
@@ -2166,11 +2136,11 @@
     {
       "path": "overlay_gameplay/outside/101840.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 213,
-      "non_matching": 6,
+      "matched": 216,
+      "non_matching": 3,
       "asm_stubs": 0,
       "total": 219,
-      "matched_pct": 97.3,
+      "matched_pct": 98.6,
       "contributor": "jaytheham"
     },
     {
@@ -2186,11 +2156,11 @@
     {
       "path": "overlay_gameplay/outside/1312D0.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 49,
-      "non_matching": 4,
+      "matched": 50,
+      "non_matching": 3,
       "asm_stubs": 0,
       "total": 53,
-      "matched_pct": 92.5,
+      "matched_pct": 94.3,
       "contributor": "jaytheham"
     },
     {
@@ -2366,21 +2336,21 @@
     {
       "path": "overlay_gameplay/outside/BF9C0.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 70,
-      "non_matching": 5,
+      "matched": 74,
+      "non_matching": 1,
       "asm_stubs": 0,
       "total": 75,
-      "matched_pct": 93.3,
+      "matched_pct": 98.7,
       "contributor": "jaytheham"
     },
     {
       "path": "overlay_gameplay/outside/CFE30.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 277,
-      "non_matching": 5,
+      "matched": 282,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 282,
-      "matched_pct": 98.2,
+      "matched_pct": 100.0,
       "contributor": "jaytheham"
     },
     {
@@ -2426,11 +2396,11 @@
     {
       "path": "overlay_gameplay/outside/FEC70.c",
       "segment": "overlay_gameplay/outside",
-      "matched": 13,
-      "non_matching": 2,
+      "matched": 15,
+      "non_matching": 0,
       "asm_stubs": 0,
       "total": 15,
-      "matched_pct": 86.7,
+      "matched_pct": 100.0,
       "contributor": "jaytheham"
     },
     {
@@ -2461,7 +2431,7 @@
       "asm_stubs": 0,
       "total": 0,
       "matched_pct": 0,
-      "contributor": "lunarlaurus"
+      "contributor": "LunarLaurus"
     },
     {
       "path": "overlay_gameplay/outside/constData2.c",
@@ -2506,21 +2476,11 @@
     {
       "path": "overlay_level/america/254410.c",
       "segment": "overlay_level/america",
-      "matched": 73,
-      "non_matching": 1,
-      "asm_stubs": 0,
-      "total": 74,
-      "matched_pct": 98.6,
-      "contributor": "jaytheham"
-    },
-    {
-      "path": "overlay_level/america/254410_rodata.c",
-      "segment": "overlay_level/america",
-      "matched": 0,
+      "matched": 74,
       "non_matching": 0,
       "asm_stubs": 0,
-      "total": 0,
-      "matched_pct": 0,
+      "total": 74,
+      "matched_pct": 100.0,
       "contributor": "jaytheham"
     },
     {
@@ -2617,9 +2577,9 @@
   "contributors": [
     {
       "name": "jaytheham",
-      "files": 97,
-      "matched": 2636,
-      "non_matching": 34,
+      "files": 95,
+      "matched": 2701,
+      "non_matching": 17,
       "asm_stubs": 0
     },
     {
@@ -2630,16 +2590,16 @@
       "asm_stubs": 0
     },
     {
-      "name": "LunarLaurus",
-      "files": 2,
-      "matched": 48,
+      "name": "lunarlaurus",
+      "files": 3,
+      "matched": 4,
       "non_matching": 0,
       "asm_stubs": 0
     },
     {
-      "name": "lunarlaurus",
-      "files": 4,
-      "matched": 4,
+      "name": "LunarLaurus",
+      "files": 1,
+      "matched": 0,
       "non_matching": 0,
       "asm_stubs": 0
     }
@@ -2934,16 +2894,16 @@
     },
     {
       "date": "2026-11-15",
-      "commit": "8f083b8",
-      "matched": 3023,
-      "non_matching": 34,
+      "commit": "4ee6881",
+      "matched": 3039,
+      "non_matching": 18,
       "total": 3057
     },
     {
       "date": "2026-11-22",
-      "commit": "8f083b8",
-      "matched": 3023,
-      "non_matching": 34,
+      "commit": "b9f4a57",
+      "matched": 3040,
+      "non_matching": 17,
       "total": 3057
     }
   ]
